@@ -1,0 +1,16 @@
+{
+	"name": "Alcoholic",
+	"description": "Automatically uses the Stoic  perk upon low health",
+	"author": "Kathryn Levelle",
+	"contact": "steamcommunity.com/profiles/76561198364764015",
+	"version": "1.0",
+	"priority": 1,
+	"blt_version": 2,
+	"color" : "0.2 0.4 0.2",
+	"hooks": [
+		{
+			"hook_id": "lib/units/beings/player/playerdamage",
+			"script_path": "lua/alcoholic.lua"
+		}
+	]
+}
